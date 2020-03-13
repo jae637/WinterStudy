@@ -11,9 +11,8 @@ int dir[4][2] = { {0,1},{1,0},{-1,0},{0,-1} };
 int main() {
 	cin >> N >> M;
 	map = new char*[N];
-	for (int i = 0; i < N; i++) {
+	for (int i = 0; i < N; i++)
 		map[i] = new char[M];
-	}
 	//첫 좌표 빨강파랑, 세로가로 순
 	int pos=0;
 	for (int i = 0; i < N; i++) {
@@ -32,17 +31,13 @@ int main() {
 		}
 	}
 	//입력 끝
+
 	queue<int> q,tq;
 	q.push(pos);
 	int ans = 1;
 	bool succse = false;
 	//BFS 시작
-	while (!q.empty()) {
-		//10번 이상 움직였을 경우
-		if (ans > 10) {
-			ans = -1;
-			break;
-		}
+	while (!q.empty()&&ans<=10) {
 		int p = q.front();
 		q.pop();
 		visit[p] = true;
@@ -116,10 +111,7 @@ int main() {
 			break;
 		//턴 증가
 		if (q.empty()) {
-			while (!tq.empty()) {
-				q.push(tq.front());
-				tq.pop();
-			}
+			q.swap(tq);
 			ans++;
 		}
 	}
