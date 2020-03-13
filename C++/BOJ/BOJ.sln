@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Main1520", "Main1520\Main15
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Main6593", "Main6593\Main6593.vcxproj", "{152FD781-1AA2-4EA9-84BD-A3ED73DCF9CD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Main5014_스타트링크", "Main5014_스타트링크\Main5014_스타트링크.vcxproj", "{E10018F3-F215-49CF-AE1B-60308689F91A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{152FD781-1AA2-4EA9-84BD-A3ED73DCF9CD}.Release|x64.Build.0 = Release|x64
 		{152FD781-1AA2-4EA9-84BD-A3ED73DCF9CD}.Release|x86.ActiveCfg = Release|Win32
 		{152FD781-1AA2-4EA9-84BD-A3ED73DCF9CD}.Release|x86.Build.0 = Release|Win32
+		{E10018F3-F215-49CF-AE1B-60308689F91A}.Debug|x64.ActiveCfg = Debug|x64
+		{E10018F3-F215-49CF-AE1B-60308689F91A}.Debug|x64.Build.0 = Debug|x64
+		{E10018F3-F215-49CF-AE1B-60308689F91A}.Debug|x86.ActiveCfg = Debug|Win32
+		{E10018F3-F215-49CF-AE1B-60308689F91A}.Debug|x86.Build.0 = Debug|Win32
+		{E10018F3-F215-49CF-AE1B-60308689F91A}.Release|x64.ActiveCfg = Release|x64
+		{E10018F3-F215-49CF-AE1B-60308689F91A}.Release|x64.Build.0 = Release|x64
+		{E10018F3-F215-49CF-AE1B-60308689F91A}.Release|x86.ActiveCfg = Release|Win32
+		{E10018F3-F215-49CF-AE1B-60308689F91A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
